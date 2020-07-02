@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>Basic Calculator</title>
+		<meta charset="utf-8"/>
+		<meta name="description" content="Performs basic arithmatic operations"/>
+		<meta name="keywords" content="Addition, Subtraction, Multiplication, Division">
+		<meta name="author" content="Hannu">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" type="text/css" href="calc_style.css"/>
+	</head>
+	<body>
+		<header>BASIC CALCULATOR</header>
+		<form>
+			VALUE A:<br><br>
+			<input type="text" id="val1" name="value1"/><br><br>
+			VALUE B:<br><br>
+			<input type="text" id="val2" name="value2"/><br><br>
+			RESULT:<br><br>
+			<div id="res"></div><br><br>
+			<select id="op" name="operator"/>
+				<option value="add">ADD</option>
+				<option value="sub">SUBTRACT</option>
+				<option value="mul">MULTIPLY</option>
+				<option value="div">DIVIDE</option>
+			</select>
+			<button type="button" onclick="calculate()">CALCULATE</button><br><br>
+		</form>
+		<script type="text/javascript" src="calc.js"></script>
+	</body>
+</html>
