@@ -1,3 +1,3 @@
 # SIMPLE CALCULATOR
 
-A Simple Calcultor created using HTML and JAVASCRIPT. 
+A Simple Calculator created using HTML and JAVASCRIPT. 
